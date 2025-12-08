@@ -1,17 +1,15 @@
-# Nashville Housing Data Cleaning (MySQL)
+# Nashville Housing Data Cleaning & Dashboard (MySQL + Tableau)
 
 ## Overview
-This project demonstrates systematic data cleaning and normalization of the Nashville Housing dataset using MySQL.  
+This project demonstrates systematic data cleaning, normalization, and dashboard preparation of the Nashville Housing dataset using MySQL.  
 It covers:
-- Standardizing date formats
-- Normalizing blanks to NULL
-- Populating missing property addresses
-- Splitting address fields into separate columns
-- Normalizing categorical values
-- Removing duplicates
-- Dropping unused columns
+- Cleaning and structuring raw housing data
+- Standardizing date formats and categorical values
+- Splitting and normalizing address fields
+- Removing duplicates and unused columns
+- Exporting analysis-ready CSVs for Tableau dashboards
 
-## Steps
+## Data Cleaning Steps
 
 ### 1. Standardize Date Format
 - Converted `SaleDate` from text into proper `DATE` type using `STR_TO_DATE`.
@@ -39,10 +37,26 @@ It covers:
 ### 7. Drop Unused Columns
 - Removed redundant fields (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`) after splitting and normalization.
 
+## Dashboard Data Exports
+To feed the Tableau dashboard, reproducible SQL queries were written and saved in  
+[`queries/dashboard_data_exports.sql`](queries/dashboard_data_exports.sql).  
+These queries generate CSVs for the following panels:
+
+1. **Property Type Distribution** – property counts and average sale price by `LandUse`
+2. **Geographic Breakdown** – sales volume and average price by `PropertySplitCity`
+3. **Vacancy Analysis** – sales volume and average price by `SoldAsVacant`
+4. **Price vs Features** – average sale price by number of bedrooms
+5. **Year Built Analysis** – average sale price by construction year
+6. **Sales Trends** – monthly average sale price and transaction volume (from raw table)
+
+Each query is designed to be exported as a CSV and consumed directly in Tableau.
+
 ## Outcome
-A clean, analysis-ready `NashvilleHousing_Staging` table with standardized dates, normalized categorical fields, deduplicated records, and properly structured address data.  
-This dataset is now suitable for dashboards, portfolio analysis, and further exploration.
+- A clean, analysis-ready `NashvilleHousing_Staging` table with standardized dates, normalized categorical fields, deduplicated records, and properly structured address data.
+- A reproducible SQL script (`dashboard_data_exports.sql`) that generates all CSVs used in the Tableau dashboard.
+- A complete portfolio project demonstrating both **data engineering** and **data visualization** skills.
 
 ## Tools
-- **MySQL 8.0**
-- SQL functions: `STR_TO_DATE`, `SUBSTRING_INDEX`, `REGEXP_SUBSTR`, `ROW_NUMBER()`, `CASE`, `ALTER TABLE`, `UPDATE`, `DELETE`
+- **MySQL 8.0** for cleaning and query exports
+- **Tableau** for dashboard visualization
+- **GitHub** for portfolio documentation and reproducibility
