@@ -16,6 +16,15 @@ Each project showcases best practices for preparing raw datasets into analysis-r
   - Created analysis-ready views
   - Prepared outputs for Tableau dashboards
 
+#### 📊 Tableau Dashboard
+The cleaned and merged COVID-19 dataset was visualized in Tableau to highlight:
+- Global infection and death trends
+- Death counts by continent
+- Infection rates by country
+- Vaccination progress vs population over time
+
+👉 [View Tableau dashboard here](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/CovidDashboard_17637380851660/Dashboard1)
+
 ---
 
 ### 2. [Nashville Housing Cleaning & Analysis](./nashville-housing-analysis)
@@ -26,6 +35,15 @@ Each project showcases best practices for preparing raw datasets into analysis-r
   - Split and structured address fields
   - Deduplicated records
   - Dropped unused columns
+
+#### 📊 Tableau Dashboard
+The cleaned Nashville Housing dataset was visualized in Tableau to highlight:
+- Distribution of housing prices
+- Trends across property types
+- Impact of normalized address fields on analysis
+- Deduplication effects on overall dataset integrity
+
+👉 [View Tableau dashboard here](PASTE-NASHVILLE-TABLEAU-LINK-HERE)
 
 ---
 
