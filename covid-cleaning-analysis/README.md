@@ -1,4 +1,3 @@
-# PortfolioProjects
 # COVID-19 Data Cleaning & Analysis (MySQL)
 
 ## Overview
@@ -9,6 +8,8 @@ It covers:
 - Analytical queries (infection rates, death percentages, global totals)
 - Vaccination analysis (rolling totals, population coverage, temp tables)
 - Creating views and Tableau-ready queries for visualization
+
+---
 
 ## Steps
 
@@ -50,6 +51,28 @@ It covers:
   - Infection rates by country
   - Infection rates by country over time
 
+---
+
 ## Outcome
 A clean, analysis-ready dataset (`coviddeaths` + `covidvaccinations`) with reusable views and queries, suitable for dashboards and further exploration in Tableau.
 
+---
+
+## 📊 Tableau Dashboard
+The cleaned and merged COVID-19 dataset was visualized in Tableau to highlight:
+- Global infection and death trends
+- Death counts by continent
+- Infection rates by country
+- Vaccination progress vs population over time
+
+👉 [View Tableau dashboard here](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/CovidDashboard_17637380851660/Dashboard1)
+
+---
+
+## Skills Demonstrated
+- SQL data cleaning, normalization, and deduplication
+- Schema merging and staging table management
+- Analytical queries with window functions and CTEs
+- Business-oriented insights on global health data
+- Data visualization in Tableau
+- End-to-end workflow documentation for recruiter-friendly presentation
