@@ -7,11 +7,11 @@ This project is part of the **Google Data Analytics Certificate** capstone. The 
 
 ## 📂 Project Structure
 
-Cyclistic_SQL/
-  ├── cyclistic_data_cleaning_and_summary.sql
-  ├── cyclistic_seasonal_enrichment.sql
-  ├── cyclistic_ride_length_analysis.sql
-  └── README.md
+- Cyclistic_SQL/
+  - cyclistic_data_cleaning_and_summary.sql
+  - cyclistic_seasonal_enrichment.sql
+  - cyclistic_ride_length_analysis.sql
+  - README.md
 
 ---
 
