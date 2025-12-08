@@ -29,7 +29,7 @@ Each project showcases best practices for preparing raw datasets into analysis-r
 
 ---
 
-### 3. Cyclistic Bike-Share Case Study (Google Data Analytics Capstone)
+### 3. [Cyclistic Bike-Share Case Study (Google Data Analytics Capstone)](./cyclistic-bike-share-case-study)
 - **Focus:** Analyzing Cyclistic’s 2020 bike-share data to understand differences between casual riders and annual members.
 - **Highlights:**
   - Cleaned and combined monthly trip data into quarterly and annual tables
