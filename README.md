@@ -29,10 +29,31 @@ Each project showcases best practices for preparing raw datasets into analysis-r
 
 ---
 
+### 3. Cyclistic Bike-Share Case Study (Google Data Analytics Capstone)
+- **Focus:** Analyzing Cyclistic’s 2020 bike-share data to understand differences between casual riders and annual members.
+- **Highlights:**
+  - Cleaned and combined monthly trip data into quarterly and annual tables
+  - Removed duplicates and validated ride IDs
+  - Summarized seasonal ride counts and average ride durations
+  - Enriched seasonal data with calculated metrics (ratios, duration differences, seasonal index)
+  - Confirmed key insight: **casual riders consistently take longer trips than members**
+
+#### 📊 Tableau Dashboard
+The cleaned and enriched dataset was visualized in Tableau to highlight:
+- Seasonal ride volume trends
+- Member vs casual usage patterns
+- Differences in ride duration across user types
+- Strategic insights for converting casual riders into members
+
+👉 [View Tableau dashboard here](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/CyclisticAnalysis_17609913408520/Dashboard2)
+
+---
+
 ## Tools & Skills
-- **SQL (MySQL 8.0)**: Data cleaning, transformation, deduplication, normalization
-- **ETL Best Practices**: Staging tables, reproducible workflows
-- **Portfolio Presentation**: Clear documentation, recruiter-friendly structure
+- **SQL (MySQL 8.0):** Data cleaning, transformation, deduplication, normalization
+- **ETL Best Practices:** Staging tables, reproducible workflows
+- **Portfolio Presentation:** Clear documentation, recruiter-friendly structure
+- **Visualization:** Tableau dashboards for business insights
 
 ---
 
