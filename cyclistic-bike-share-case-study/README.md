@@ -3,6 +3,8 @@
 
 This project is part of the **Google Data Analytics Certificate** capstone. The goal is to analyze Cyclistic’s 2020 bike-share data to understand differences between **casual riders** and **annual members**, and provide insights that can guide marketing strategies.
 
+---
+
 ```## 📂 Project Structure
 
 Cyclistic_SQL/
@@ -10,6 +12,8 @@ Cyclistic_SQL/
   ├── cyclistic_seasonal_enrichment.sql
   ├── cyclistic_ride_length_analysis.sql
   └── README.md```
+
+---
 
 ## 🛠️ SQL Workflow
 
