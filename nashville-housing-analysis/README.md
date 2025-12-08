@@ -39,7 +39,7 @@ It covers:
 
 ## Dashboard Data Exports
 To feed the Tableau dashboard, reproducible SQL queries were written and saved in  
-[`nashville-housing-analysis/dashboard_data_exports.sql`](nashville-housing-analysis/dashboard_data_exports.sql).  
+[`dashboard_data_exports.sql`](dashboard_data_exports.sql).  
 
 These queries generate CSVs for the following panels:
 1. **Property Type Distribution** – property counts and average sale price by `LandUse`
