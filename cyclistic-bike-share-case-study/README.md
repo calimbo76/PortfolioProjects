@@ -3,11 +3,13 @@
 
 This project is part of the **Google Data Analytics Certificate** capstone. The goal is to analyze Cyclistic’s 2020 bike-share data to understand differences between **casual riders** and **annual members**, and provide insights that can guide marketing strategies.
 
----
-
 ## 📂 Project Structure
 
----
+Cyclistic_SQL/
+  ├── cyclistic_data_cleaning_and_summary.sql
+  ├── cyclistic_seasonal_enrichment.sql
+  ├── cyclistic_ride_length_analysis.sql
+  └── README.md
 
 ## 🛠️ SQL Workflow
 
@@ -41,7 +43,7 @@ The cleaned and enriched dataset was visualized in Tableau to highlight:
 - Differences in ride duration across user types.
 - Strategic insights for converting casual riders into members.
 
-👉 [Insert link to your Tableau dashboard here]
+👉 [View Tableau dashboard here](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/CyclisticAnalysis_17609913408520/Dashboard2)
 
 ---
 
