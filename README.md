@@ -43,7 +43,7 @@ The cleaned Nashville Housing dataset was visualized in Tableau to highlight:
 - Impact of normalized address fields on analysis
 - Deduplication effects on overall dataset integrity
 
-👉 [View Tableau dashboard here](PASTE-NASHVILLE-TABLEAU-LINK-HERE)
+👉 [View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/NashvilleHousingMarketDashboard2013-2019/Dashboard1?publish=yes)
 
 ---
 
