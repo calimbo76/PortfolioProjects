@@ -1,13 +1,14 @@
-# Nashville Housing Data Cleaning & Dashboard (MySQL + Tableau)
+# Nashville Housing Data Cleaning & Dashboard (SQL + Tableau Portfolio Project)
 
 ## Overview
-This project demonstrates systematic data cleaning, normalization, and dashboard preparation of the Nashville Housing dataset using MySQL.  
-It covers:
-- Cleaning and structuring raw housing data
-- Standardizing date formats and categorical values
-- Splitting and normalizing address fields
-- Removing duplicates and unused columns
-- Exporting analysis-ready CSVs for Tableau dashboards
+This project demonstrates systematic data cleaning, normalization, and dashboard preparation of the Nashville Housing dataset using MySQL and Tableau.  
+It highlights both **data engineering** and **data visualization** skills, showing the full workflow from raw data → clean staging table → reproducible exports → interactive dashboard.
+
+👉 [View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/NashvilleHousingMarketDashboard2013-2019/Dashboard1?publish=yes)
+
+![Nashville Housing Dashboard](dashboard.png)
+
+---
 
 ## Data Cleaning Steps
 
@@ -20,7 +21,7 @@ It covers:
 - Improved consistency for filtering and aggregation.
 
 ### 3. Populate Missing Property Addresses
-- Used self-joins on `ParcelID` to fill missing `PropertyAddress` values from duplicate records.
+- Used self‑joins on `ParcelID` to fill missing `PropertyAddress` values from duplicate records.
 
 ### 4. Split Address Fields
 - Applied `SUBSTRING_INDEX` to break `PropertyAddress` into `StreetAddress` and `City`.
@@ -37,24 +38,37 @@ It covers:
 ### 7. Drop Unused Columns
 - Removed redundant fields (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`) after splitting and normalization.
 
-## Dashboard Data Exports
-To feed the Tableau dashboard, reproducible SQL queries were written and saved in  
-[`dashboard_data_exports.sql`](dashboard_data_exports.sql).  
+---
 
-These queries generate CSVs for the following panels:
+## Dashboard Panels
+The cleaned dataset was exported into CSVs via reproducible SQL queries (`dashboard_data_exports.sql`) and visualized in Tableau.  
+The dashboard contains six panels:
+
 1. **Property Type Distribution** – property counts and average sale price by `LandUse`
-2. **Geographic Breakdown** – sales volume and average price by `PropertySplitCity`
+2. **Geographic Breakdown** – treemap of sales volume and average price by `PropertySplitCity`
 3. **Vacancy Analysis** – sales volume and average price by `SoldAsVacant`
 4. **Price vs Features** – average sale price by number of bedrooms
 5. **Year Built Analysis** – average sale price by construction year
-6. **Sales Trends** – monthly average sale price and transaction volume (from raw table)
+6. **Sales Trends** – monthly average sale price and transaction volume
 
-Each query is designed to be exported as a CSV and consumed directly in Tableau.
+---
 
 ## Outcome
-- A clean, analysis-ready `NashvilleHousing_Staging` table with standardized dates, normalized categorical fields, deduplicated records, and properly structured address data.
+- A clean, analysis‑ready `NashvilleHousing_Staging` table with standardized dates, normalized categorical fields, deduplicated records, and properly structured address data.
 - A reproducible SQL script (`dashboard_data_exports.sql`) that generates all CSVs used in the Tableau dashboard.
-- A complete portfolio project demonstrating both **data engineering** and **data visualization** skills.
+- A complete portfolio project demonstrating both **data engineering** and **data visualization storytelling**.
+
+---
+
+## How to Reproduce
+1. Clone this repo.
+2. Run `dashboard_data_exports.sql` in MySQL 8.0.
+3. Export CSVs from the queries.
+4. Open Tableau → connect to CSVs → load the dashboard.
+5. Or explore the hosted version here:  
+   👉 [Nashville Housing Market Dashboard (2013–2019)](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/NashvilleHousingMarketDashboard2013-2019/Dashboard1?publish=yes)
+
+---
 
 ## Tools
 - **MySQL 8.0** for cleaning and query exports
