@@ -6,7 +6,6 @@ It highlights both **data engineering** and **data visualization** skills, showi
 
 👉 [View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/NashvilleHousingMarketDashboard2013-2019/Dashboard1?publish=yes)
 
-![Nashville Housing Dashboard](dashboard.png)
 
 ---
 
