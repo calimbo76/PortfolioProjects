@@ -67,6 +67,27 @@ The cleaned and enriched dataset was visualized in Tableau to highlight:
 
 ---
 
+### 4. [European Football Leagues Cleaning & Analysis](./european-football-leagues-analysis)
+- **Focus:** Schema validation, normalization, and comparative analysis of Europe’s top 5 football leagues (2023–2024).
+- **Highlights:**
+  - Created `league_rules` table to enforce Champions League, Europa League, Conference League, relegation, and playoff spots
+  - Converted player DOBs from text to proper `DATE` type and validated ages
+  - Corrected standings (points, goal difference, played games consistency)
+  - Ensured match, team, coach, referee, and stadium linkages were valid
+  - Exported clean, analysis-ready tables for dashboard visualization
+
+#### 📊 Tableau Dashboard
+The validated football dataset was visualized in Tableau to highlight:
+- Average player age differences across leagues
+- Goals per match (Bundesliga highest scoring)
+- UEFA competition participation by league
+- Goal difference vs points for top clubs
+- Points distribution spread across leagues
+
+👉 [View the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/carlos.aguilar8205/viz/EuropeanFootballLeaguesDashboard20232024/Dashboard1?publish=yes)
+
+---
+
 ## Tools & Skills
 - **SQL (MySQL 8.0):** Data cleaning, transformation, deduplication, normalization
 - **ETL Best Practices:** Staging tables, reproducible workflows
