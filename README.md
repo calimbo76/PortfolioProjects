@@ -1,25 +1,25 @@
-# **Portfolio Projects**
+# Portfolio Projects
 
-## **Overview**  
+## Overview
 This repository contains curated SQL‑driven portfolio projects demonstrating end‑to‑end data cleaning, normalization, transformation, and dashboard development.  
 Each project showcases best practices for preparing raw datasets into analysis‑ready tables and building recruiter‑ready visualizations in Tableau.
 
 ---
 
-# **Projects**
+# Projects
 
 ---
 
-## **1. [Stock Market Performance & Technical Analysis (2015–2024)](./stock-market-performance-technical-analysis)**  
+## 1. [Stock Market Performance & Technical Analysis (2015–2024)](./Stock-Market-Performance-Technical-Analysis)
 - **Focus:** Multi‑year financial data cleaning, return calculations, volatility analysis, and technical indicators.  
-- **Highlights:**  
+- **Highlights:**
   - Combined 10 years of OHLCV data using Power Query  
   - Cleaned and normalized datasets in MySQL (date fixes, schema cleanup)  
   - Calculated daily returns, cumulative returns, volatility, intraday spread, and moving averages  
   - Built a multi‑panel Tableau dashboard covering performance, risk, liquidity, and trend signals  
 
-#### 📊 Tableau Dashboard  
-The dashboard visualizes:  
+#### 📊 Tableau Dashboard
+The dashboard visualizes:
 - Cumulative returns across five tickers  
 - Volatility vs return (risk profile)  
 - Intraday spread (7‑day MA)  
@@ -29,16 +29,16 @@ The dashboard visualizes:
 
 ---
 
-## **2. [Covid Cleaning & Analysis](./covid-cleaning-analysis)**  
+## 2. [Covid Cleaning & Analysis](./covid-cleaning-analysis)
 - **Focus:** Cleaning, merging, and analyzing global COVID‑19 datasets.  
-- **Highlights:**  
+- **Highlights:**
   - Standardized date formats  
   - Merged deaths and vaccinations data  
   - Created analysis‑ready SQL views  
   - Prepared outputs for Tableau dashboards  
 
-#### 📊 Tableau Dashboard  
-Visualizes:  
+#### 📊 Tableau Dashboard
+Visualizes:
 - Global infection and death trends  
 - Death counts by continent  
 - Infection rates by country  
@@ -48,17 +48,17 @@ Visualizes:
 
 ---
 
-## **3. [Nashville Housing Cleaning & Analysis](./nashville-housing-analysis)**  
+## 3. [Nashville Housing Cleaning & Analysis](./nashville-housing-analysis)
 - **Focus:** Normalization and cleaning of the Nashville Housing dataset.  
-- **Highlights:**  
+- **Highlights:**
   - Standardized date formats  
   - Normalized blanks to NULL  
   - Split and structured address fields  
   - Deduplicated records  
   - Dropped unused columns  
 
-#### 📊 Tableau Dashboard  
-Visualizes:  
+#### 📊 Tableau Dashboard
+Visualizes:
 - Housing price distribution  
 - Trends across property types  
 - Impact of address normalization  
@@ -68,17 +68,17 @@ Visualizes:
 
 ---
 
-## **4. [Cyclistic Bike‑Share Case Study (Google Data Analytics Capstone)](./cyclistic-bike-share-case-study)**  
+## 4. [Cyclistic Bike‑Share Case Study (Google Data Analytics Capstone)](./cyclistic-bike-share-case-study)
 - **Focus:** Understanding behavioral differences between casual riders and annual members.  
-- **Highlights:**  
+- **Highlights:**
   - Cleaned and combined monthly trip data  
   - Removed duplicates and validated ride IDs  
   - Summarized seasonal ride counts and durations  
   - Enriched data with ratios, duration differences, and seasonal indexes  
   - Confirmed key insight: **casual riders consistently take longer trips than members**  
 
-#### 📊 Tableau Dashboard  
-Visualizes:  
+#### 📊 Tableau Dashboard
+Visualizes:
 - Seasonal ride volume  
 - Member vs casual usage patterns  
 - Ride duration differences  
@@ -88,17 +88,17 @@ Visualizes:
 
 ---
 
-## **5. [European Football Leagues Cleaning & Analysis](./european-football-leagues-analysis)**  
+## 5. [European Football Leagues Cleaning & Analysis](./european-football-leagues-analysis)
 - **Focus:** Schema validation, normalization, and comparative analysis of Europe’s top 5 leagues (2023–2024).  
-- **Highlights:**  
+- **Highlights:**
   - Created `league_rules` table to enforce UEFA qualification and relegation logic  
   - Converted player DOBs to proper `DATE` type and validated ages  
   - Corrected standings (points, goal difference, played games consistency)  
   - Ensured valid relationships across matches, teams, coaches, referees, and stadiums  
   - Exported clean, analysis‑ready tables for Tableau  
 
-#### 📊 Tableau Dashboard  
-Visualizes:  
+#### 📊 Tableau Dashboard
+Visualizes:
 - Average player age by league  
 - Goals per match (Bundesliga highest scoring)  
 - UEFA competition qualification  
@@ -109,7 +109,7 @@ Visualizes:
 
 ---
 
-# **Tools & Skills**
+# Tools & Skills
 - **SQL (MySQL 8.0):** Data cleaning, transformation, normalization, validation  
 - **ETL Best Practices:** Staging tables, reproducible workflows, schema integrity  
 - **Excel:** Financial calculations, validation, moving averages, volatility  
@@ -119,9 +119,6 @@ Visualizes:
 
 ---
 
-# **Purpose**
+# Purpose
 These projects demonstrate technical rigor, reproducible workflows, and professional documentation.  
 They are designed to highlight SQL proficiency, analytical thinking, and recruiter‑ready dashboard development for hiring managers, collaborators, and data teams.
-
-
-
