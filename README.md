@@ -88,7 +88,7 @@ Visualizes:
 
 ---
 
-## 5. [European Football Leagues Cleaning & Analysis](./european-football-leagues-analysis)
+## 5. [European Football Leagues Cleaning & Analysis (2023–2024)](./european-football-leagues-2023-2024)
 - **Focus:** Schema validation, normalization, and comparative analysis of Europe’s top 5 leagues (2023–2024).  
 - **Highlights:**
   - Created `league_rules` table to enforce UEFA qualification and relegation logic  
